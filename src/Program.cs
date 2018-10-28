@@ -1,4 +1,5 @@
 ﻿using System;
+using Oracle.ManagedDataAccess.Client;
 
 namespace hello_dotnet
 {
@@ -6,7 +7,9 @@ namespace hello_dotnet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello dotnet 2!");
+            OracleConnection connection = new OracleConnection();
+
+            Console.WriteLine("Hello dotnet 3!");
         }
     }
 }
