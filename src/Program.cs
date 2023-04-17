@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Data;
+using System.Data.Common;
 using Oracle.ManagedDataAccess.Client;
 
 namespace hello_dotnet
@@ -9,7 +11,7 @@ namespace hello_dotnet
         {
             OracleConnection connection = new OracleConnection();
 
-            Console.WriteLine("Hello dotnet 3!");
+            Console.WriteLine("Hello dotnet 7!");
         }
     }
 }
